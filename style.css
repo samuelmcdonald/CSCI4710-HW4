@@ -69,35 +69,35 @@ body, html {
 }
 
 .navigation-buttons {
-    position: fixed; /* Fix position relative to viewport */
-    left: 0; /* Align container to the left */
-    bottom: 0; /* Align container to the bottom */
-    width: 98%; /* Span across the entire width of the viewport */
-    display: flex; /* Use flexbox for positioning children */
-    justify-content: space-between; /* Space out children */
-    padding: 10px 20px; /* Add some padding inside the container */
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 98%; 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
 }
 
 /* Style individual buttons */
 .navigation-buttons button {
-    background-color: rgb(255, 0, 0); /* Red */
-    color: rgb(255, 255, 255); /* White text */
-    padding: 10px 20px; /* Adjust padding to your liking */
+    background-color: rgb(255, 0, 0); 
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px; 
     border: none;
-    border-radius: 10px; /* Adjusted for slimmer appearance */
+    border-radius: 10px; 
     cursor: pointer;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    transition: background-color 0.3s; 
 }
 
 .navigation-buttons button:hover {
-    background-color: rgb(139, 0, 0); /* Dark red on hover */
+    background-color: rgb(139, 0, 0); 
 }
 
 hr {
     border: 0;
     height: 1px;
-    background-color: black; /* Creates a long black line */
-    margin: 20px 0; /* Adjust spacing around the <hr> */
+    background-color: black; 
+    margin: 20px 0; 
 }
 
 
