@@ -24,9 +24,6 @@ Open `homePage.html` in your web browser to view the app.
 2. Check which boxes are true for each individual
 3. Navigate to the results page to find out who is a vampire and who is not!
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit pull requests with your proposed changes.
-
 ## Team Members
 - Samuel McDonald
 - Ulysses Bueno
