@@ -2,13 +2,12 @@
 # Vampire App
 
 ## Description
-The Vampire App is a web application designed to classify students as vampires based on certain criteria. It uses HTML, CSS, and JavaScript to implement the View, Model, and Controller parts, featuring a pie chart for visualization and TensorFlow.js for an optional decision tree classification.
+The Vampire App is a web application designed to classify students as vampires based on certain criteria. It uses HTML, CSS, and JavaScript to implement the View, Model, and Controller parts, featuring a pie chart for visualization.
 
 ## Features
 - Threshold-based classification
 - Pie chart visualization
-- Selectable data processing methods
-- Upload and display classmate information
+- Input and display classmate information
 - Dynamic updates to visualizations and data table
 
 ## Technology Stack
@@ -21,9 +20,9 @@ Clone the repository to your local machine:
 Open `homePage.html` in your web browser to view the app.
 
 ## How to Use
-1. Select a data processing method from the dropdown menu.
-2. Upload a CSV file with classmate information.
-3. View the classification results in the pie chart.
+1. Input information regarding classmates or friends into the site
+2. Check which boxes are true for each individual
+3. Navigate to the results page to find out who is a vampire and who is not!
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit pull requests with your proposed changes.
