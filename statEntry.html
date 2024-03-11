@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire or Not? - Stat Entry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Vampire or Not?</h1>
+        <hr>
+    </div>
+
+    <div class="form-container">
+        <form id="statForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="noShadow">Shadow:</label>
+            <select id="noShadow" name="noShadow">
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+            
+            <label for="paleComplexion">Pale Complexion:</label>
+            <select id="paleComplexion" name="paleComplexion">
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+            
+            <label for="noGarlic">Dislikes Garlic:</label>
+            <select id="noGarlic" name="noGarlic">
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="classmate-info">
+        <h2>Classmate Information</h2>
+        <table id="classmateTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Shadow</th>
+                    <th>Pale Complexion</th>
+                    <th>Dislikes Garlic</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    
+    
+    
+    <div class="navigation-buttons">
+        <button id="backToHome">Back to Homepage</button>
+        <button id="seeResults">See Results</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
