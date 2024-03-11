@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire or Not? - Stats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Vampire or Not?</h1>
+        <hr>
+    </div>
+
+    <div class="method-selector">
+        <label for="resultMethod">Choose Result Method:</label>
+        <select id="resultMethod">
+            <option value="random">Randomizer</option>
+            <option value="calculated">Calculated Results</option>
+        </select>
+    </div>
+    
+    <div class="results-container">
+        <h2>Classmate Results</h2>
+        <ul id="resultsList"></ul>
+    </div>
+    
+    <div class="navigation-buttons">
+        <button id="editInformation">Edit Information</button>
+        <button id="backToHomeFromStats">Back to Homepage</button>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="vampireChart"></canvas>
+    </div>    
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
